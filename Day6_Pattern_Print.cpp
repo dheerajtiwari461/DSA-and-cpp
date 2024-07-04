@@ -53,10 +53,18 @@ int main(){
 // F G H I J K
 // F G H I J K
 // F G H I J K
-    char row, col;
-    for(row='F'; row<='K'; row++){
-        for(col='F'; col<='K'; col++){
-            cout << col <<" ";
+    // char row, col;
+    // for(row='F'; row<='K'; row++){
+    //     for(col='F'; col<='K'; col++){
+    //         cout << col <<" ";
+    //     }
+    //     cout << endl;
+    // }
+
+    int row, col;
+    for(row=1; row<=5; row++){
+        for(col=1;col<=5;col++){
+            cout<<(row-1)*5+col << " ";
         }
         cout << endl;
     }
