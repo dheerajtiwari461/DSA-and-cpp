@@ -27,10 +27,21 @@ int main(){
 // 4: Take three numbers a,b,c from the user, print yes if a is either greater
 // than b or c. Otherwise print NO.
 
-int a,b,c;
-cin >> a>>b>>c;
-if(a>b && a>b) cout << " Greater ";
-else cout << "NO ";
+// int a,b,c;
+// cin >> a>>b>>c;
+// if(a>b && a>b) cout << " Greater ";
+// else cout << "NO ";
+
+int x, y;
+	cin >> x;
+	cin >> y;
+	int sum;
+    for(int i =1; i<=6; i++){
+         sum = x*i;
+    }
+
+	cout<<sum+y;
+
 
 
 }
