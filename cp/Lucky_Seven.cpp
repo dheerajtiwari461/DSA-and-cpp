@@ -7,7 +7,7 @@ int main()
     cin >> s;
     
     for(int i = s.length(); i >=7; i-- ){
-        if(i==7) cout << s;
+        if(i==7) cout << i;
     }
 
 }
