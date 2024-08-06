@@ -6,8 +6,10 @@ int main()
     string s;
     cin >> s;
     
-    for(int i = s.length(); i >=7; i-- ){
-        if(i==7) cout << i;
+    for(int i=0 ; i<=s.length(); i++ ){
+        if(i == 6){
+        cout << s[i];
+        }
     }
 
 }
