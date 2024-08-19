@@ -3,3 +3,5 @@
 *.prob
 
 cp/.vscode/settings.json
+cp/.cph/
+
