@@ -1,19 +1,24 @@
 #include <bits/stdc++.h>
 using namespace std;
-// TODO: it is incomplete
-int main()
-{
-   int t,k,sum=0;
-   cin>>t>>k;
-   while(t--){
-    int x;
-    cin >>x;
-    for(int i=1; i<=t; i++){
-        if(x>=5) sum=sum+1;
-        cout << sum<<endl;
+
+int main() {
+    int n, k;
+    cin >> n >> k;
+    vector<int> scores(n);
+    
+    for (int i = 0; i < n; i++) {
+        cin >> scores[i];
     }
-   }
-   cout<<sum; 
+    
+    int kth_score = scores[k - 1];
+    int count = 0;
+    
+    for (int i = 0; i < n; i++) {
+        if (scores[i] >= kth_score && scores[i] > 0) {
+            count++;
+        }
+    }
+    
+    cout << count << endl;
     return 0;
 }
-
