@@ -1,24 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    int n, k;
-    cin >> n >> k;
-    vector<int> scores(n);
-    
-    for (int i = 0; i < n; i++) {
-        cin >> scores[i];
+int main()
+{
+   int t,k;
+   cin>>t>>k;
+   vector<int>score(t);
+
+    for(int i=0; i<t; i++){
+       cin>> score[i];
     }
-    
-    int kth_score = scores[k - 1];
-    int count = 0;
-    
-    for (int i = 0; i < n; i++) {
-        if (scores[i] >= kth_score && scores[i] > 0) {
-            count++;
+    int parti=0;
+    for(int i=0; i<score.size(); i++){
+        if(score[i]>=score[k-1] && score[i]>0 ){
+            parti+=1;
         }
     }
-    
-    cout << count << endl;
+    cout<<parti;
+
     return 0;
 }
+
