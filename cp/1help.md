@@ -9,9 +9,9 @@ What are the pre-requisites to solve the problem?
 
 Provide me hints to solve the problem?
 
-Can you explain how to handle edge cases in this problem? dont give code
-
 please dont give code just tell me where i am doing wrong
+
+Can you explain how to handle edge cases in this problem? dont give code
 
 
 Give optimized solutions
