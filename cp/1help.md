@@ -1,7 +1,9 @@
 Examples:
 please always reply in Hinglish
 
-Help me understand the problem, please dont give code 
+Help me understand the problem, please dont give code
+
+give pseudo code 
 ```
 
 ```
