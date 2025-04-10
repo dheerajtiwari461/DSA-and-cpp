@@ -23,6 +23,10 @@ Help me debug my code
 
 Help me understand the solution
 
+Help me find the error in my code
+
+Review my code and provide feedback on how to improve it
+
 which problem i was looking
 
 Do you remember any specific challenges or errors you encountered while working on this problem?
