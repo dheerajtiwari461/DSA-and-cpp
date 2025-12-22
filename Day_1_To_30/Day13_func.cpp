@@ -16,4 +16,4 @@ int main()
  if(sum(a) >sum2(b)) cout <<"greater";
  else cout << "Lesser";
 
-}
+2}

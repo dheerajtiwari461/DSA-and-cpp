@@ -6,3 +6,6 @@ cp/.vscode/settings.json
 cp/.cph/
 
 cp/1firs.cpp
+.vscode/tasks.json
+cp/.vscode/launch.json
+cp/.vscode/tasks.json
