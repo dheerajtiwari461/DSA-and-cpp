@@ -68,3 +68,44 @@ public:
         }
     };
 
+// https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/
+
+class Solution {
+public:
+    bool checkIfPangram(string sentence) {
+        vector<bool>alpha(26, 0);
+
+        for (int i = 0; i < sentence.size(); i++) {
+            alpha[sentence[i] - 'a'] = 1;
+        };
+
+        for (int i = 0; i < 26; i++) {
+            if (alpha[i] == 0)
+                return 0;
+        };
+
+        return 1;
+    }
+};
+
+
+// https://www.geeksforgeeks.org/problems/sort-a-string2943/1?utm_medium=article_practice_tab&utm_campaign=article_practice_tab&utm_source=geeksforgeeks
+string sort(string s) {
+    // complete the function here
+    vector<int>alpha(26,0);
+    for(int i = 0; i<s.size(); i++){
+        alpha[s[i]-'a']++;
+    }
+    
+    string ans;
+    for(int i = 0; i<26; i++){
+        char c = 'a' + i;
+        while(alpha[i]){
+            ans+=c;
+            alpha[i]--;
+        }
+        
+    }
+    return ans;
+}
+
